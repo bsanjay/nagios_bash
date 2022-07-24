@@ -42,7 +42,7 @@ sudo systemctl restart httpd
 sudo make install-daemoninit
 #To be able to access the Nagios web interface wel’ll create an admin user called nagiosadmin
 #pass the password with option -b to avoid passowrd prompt
-sudo htpasswd -b -c /usr/local/nagios/etc/htpasswd.users nagiosadmin nagiosadmin
+sudo htpasswd -b -c /usr/local/nagios/etc/htpasswd.users sanjay sanjay12345
 #Restart the Apache service for changes to take effect:
 sudo systemctl restart httpd
 #Configure the Apache service to start on boot.
