@@ -70,4 +70,4 @@ sudo systemctl enable nagios
 
 #To access the Nagios web interface open your favorite browser and type your server’s domain name or public IP address followed by /nagios:
 echo "http(s)://your_domain_or_ip_address/nagios"
-echo "THANK YOU Very Much Sir, JAILL"
+echo "THANK YOU Very Much Sir, JAILLY"
